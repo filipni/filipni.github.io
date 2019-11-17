@@ -1,0 +1,60 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    background-color: #38383d;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin-bottom: 1.3mm;
+}
+
+h2 {
+    border-bottom: 0.5mm solid;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    font-size: 1.25em;
+    margin: 0 3.5mm;
+    text-decoration: none;
+}
+
+.page-wrapper {
+    max-width: 21cm;
+    margin: auto;
+    text-align: left;
+}
+
+.code-box {
+  background-color: #2a2a2a;
+  padding: 0.1mm 5mm;
+  border-radius: 1mm;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .code-box {
+        border: 0.5mm solid black;
+    }
+}
