@@ -8,11 +8,11 @@ body {
 h1 {
     font-size: 2.5em;
     text-decoration: underline;
-    margin-bottom: 1.3mm;
+    margin-bottom: 5px;
 }
 
 h2 {
-    border-bottom: 0.5mm solid;
+    border-bottom: 2px solid;
 }
 
 p {
@@ -30,20 +30,20 @@ nav {
 
 nav a {
     font-size: 1.25em;
-    margin: 0 3.5mm;
+    margin: 0 10px;
     text-decoration: none;
 }
 
 .page-wrapper {
-    max-width: 21cm;
+    max-width: 1000px;
     margin: auto;
     text-align: left;
 }
 
 .code-box {
   background-color: #2a2a2a;
-  padding: 0.1mm 5mm;
-  border-radius: 1mm;
+  padding: 2px 20px;
+  border-radius: 4px;
   white-space: nowrap;
   overflow-x: scroll;
 }
@@ -55,6 +55,6 @@ nav a {
     }
 
     .code-box {
-        border: 0.5mm solid black;
+        border: 2px solid black;
     }
 }
